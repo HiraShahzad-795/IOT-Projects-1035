@@ -1,12 +1,21 @@
+
+
 #include <Arduino.h>
 
+
+
 #define DAC_PIN 25
+
+
 
 void setup()
 {
     Serial.begin(115200);
     Serial.println("ESP32 DAC LED Test");
 }
+
+
+
 
 void loop()
 {
@@ -22,3 +31,4 @@ void loop()
         delay(2000);
     }
 }
+
